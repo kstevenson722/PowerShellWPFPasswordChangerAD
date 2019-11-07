@@ -31,7 +31,7 @@ function Initialize-Environment {
     [System.Reflection.Assembly]::LoadWithPartialName('presentationframework')
     $Global:MinPasswordAge = 30 #Number of days to start warning.
     $Global:MaxPasswordAge = 40 #Number of days to force password change.
-    $Global:ApplicationPath = "C:\Sage\Sage 300 ERP\runtime\accpac.exe" # Application to start eg. "C:\Program Files\Windows NT\Accessories\wordpad.exe"
+    $Global:ApplicationPath = "CC:\Program Files\Windows NT\Accessories\wordpad.exe" # Application to start
 }
 
 
