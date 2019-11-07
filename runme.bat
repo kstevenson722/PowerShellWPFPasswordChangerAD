@@ -1,0 +1,1 @@
+powershell.exe -executionpolicy Bypass -STA -NoProfile -WindowStyle Hidden .\PWGui.ps1

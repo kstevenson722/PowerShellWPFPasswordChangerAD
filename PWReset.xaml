@@ -1,0 +1,25 @@
+<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        x:Name="Window"
+        Title="Password Change" Width="320" SizeToContent="Height">
+    <Grid Margin="10">
+        <StackPanel>
+            <Label  Margin="0 0" x:Name="lblMessage" Foreground="Red" FontWeight="Bold"></Label>
+            <TextBlock   Margin="0 0" x:Name="tbxMessage" Foreground="Red" FontWeight="Bold"  TextWrapping="WrapWithOverflow"/>           
+            <Label  Margin="0 5">Existing password:</Label>
+            <PasswordBox   Margin="0 5" x:Name="pbExistingPassword" />
+            <Label  Margin="0 5">New password:</Label>
+            <PasswordBox   x:Name="pbNewPassword1" Margin="0 5" />
+            <Label Margin="0 5">Retype New password:</Label>
+            <PasswordBox  x:Name="pbNewPassword2" Margin="0 5"/>
+            <Grid Margin="0 0 0 20">
+                <Button  x:Name="btnChange" HorizontalAlignment="Left">_Change</Button>
+                <Button  x:Name="btnCancel" HorizontalAlignment="Right">_Cancel</Button>
+            </Grid>
+        </StackPanel>
+
+    </Grid>
+</Window>
